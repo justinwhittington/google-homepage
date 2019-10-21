@@ -7,9 +7,50 @@ html, body {
     margin: auto;  
 }
 
+#google-app-icon {
+    height: 15px;
+    width: 15px;
+}
+
+#header {
+    height: 56px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    font-size: 14px;
+    margin-left: 6px;
+    margin-right: 6px;
+    
+}
+
+.test {
+    padding-top: 8px;
+    
+}
+
+#round-icon {
+    background: #C2185B;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
+}
+
+.left-side-align {
+    float: left;
+}
+
+.right-side-align {
+    float: right;
+}
+
 input {
     border: none;
-    
 }
 
 #google-logo {
@@ -23,6 +64,7 @@ input:hover {
 
 button {
     border: none;
+    background: transparent;
 }
 
 .search-shell {
