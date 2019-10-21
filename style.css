@@ -1,0 +1,39 @@
+html, body {
+    height: 100%;
+    display: grid;
+}
+
+.center {
+    margin: auto;  
+}
+
+input {
+    border: none;
+    
+}
+
+#google-logo {
+    display: flex;
+    justify-content: center;
+}
+
+input:hover {
+    border-color: #a0a0a0 #b9b9b9 #b9b9b9 #b9b9b9;
+}
+
+button {
+    border: none;
+}
+
+.search-shell {
+    border: 1px #dfe1e5 solid;
+    border-radius: 24px;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    width: 400px;
+}
+.search-shell:hover {
+    border-color: #a0a0a0 #b9b9b9 #b9b9b9 #b9b9b9;
+}
